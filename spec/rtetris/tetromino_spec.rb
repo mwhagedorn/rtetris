@@ -57,4 +57,42 @@ RSpec.describe Tetromino do
       expect(subject.tag).to eq('I')
     end
   end
+
+  context 'when the body data is L' do
+    subject do
+      data = [[1,1],[0,1],[0,1]]
+      tag = 'L'
+      Tetromino.new(data, tag)
+    end
+
+    it 'has a width of 2' do
+      expect(subject.width).to eq(2)
+    end
+    it 'has a height of 3' do
+      expect(subject.height).to eq(3)
+    end
+    it 'has a tag of "L"' do
+      expect(subject.tag).to eq('L')
+    end
+  end
+
+  context 'when the body data is D' do
+    subject do
+      data = [[0,1,1],[1,1,0]]
+      tag = 'D'
+      Tetromino.new(data, tag)
+    end
+
+    it 'has a width of 3' do
+      expect(subject.width).to eq(3)
+    end
+    it 'has a height of 2' do
+      expect(subject.height).to eq(2)
+    end
+    it 'has a tag of "D"' do
+      expect(subject.tag).to eq('D')
+    end
+  end
+
+
 end
