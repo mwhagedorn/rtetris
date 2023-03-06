@@ -22,6 +22,22 @@ class Tetromino
     @current_x = 0
     @current_y = 0
   end
+
+  # @return [int] an array of the lowest y values per colunn in the piece
+  def skirt
+    the_result = Array.new(self.width, 100)
+    (0..width-1).each do |col|
+      (0..height-1).each do | row|
+        if @body_data[row][col] == 1
+          if the_result[col] == 100
+            the_result[col] = row
+            break
+          end
+        end
+      end
+    end
+    the_result
+  end
   # The Square or Q shape
   # 1 1
   # 1 1
@@ -37,18 +53,18 @@ class Tetromino
   # 1 1 1
   # @return Tetromino
   def self.T
-    data = [[1,1,1], [0,1,0]]
+    data = [[0,1,0], [1,1,1]]
     tag = 'T'
     Tetromino.new(data, tag)
   end
   # The I shape
   # 1
-  # 1
+  # 15
   # 1
   # 1
   # @return Tetromino
   def self.I
-    data = [[0],[1],[2],[3]]
+    data = [[1,1,1,1]]
     tag = 'I'
     Tetromino.new(data, tag)
   end
@@ -59,7 +75,7 @@ class Tetromino
   # 1 1
   # @return Tetromino
   def self.L
-    data = [[1,1],[0,1],[0,1]]
+    data = [[1,1],[1,0],[1,0]]
     tag = 'L'
     Tetromino.new(data, tag)
   end
@@ -68,9 +84,30 @@ class Tetromino
   # 1 1 0
   # 0 1 1
   # @return Tetromino
-  def self.D
+  def self.Z
     data = [[0,1,1],[1,1,0]]
-    tag = 'D'
+    tag = 'Z'
+    Tetromino.new(data, tag)
+  end
+
+  # The Dog shape or D (LH)
+  # 1 1 0
+  # 0 1 1
+  # @return Tetromino
+  def self.S
+    data = [[1,1,0],[0,1,1]]
+    tag = 'S'
+    Tetromino.new(data, tag)
+  end
+
+  # The J Shape
+  # 0 1
+  # 0 1
+  # 1 1
+  # @return Tetromino
+  def self.J
+    data = [[1,1],[0,1],[0,1]]
+    tag = 'J'
     Tetromino.new(data, tag)
   end
 
