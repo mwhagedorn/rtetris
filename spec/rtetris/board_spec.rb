@@ -402,6 +402,125 @@ RSpec.describe Board do
       expect(subject.max_height).to eq(8)
     end
   end
+  context "L0,J3,L5,J8,T1,T6,J2,L6,T0,T7,Q4" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.L
+      board.process_move(p1, 0)
+      p2 = Tetromino.J
+      board.process_move(p2, 3)
+      p3 = Tetromino.L
+      board.process_move(p3, 5)
+      p4 = Tetromino.J
+      board.process_move(p4, 8)
+      p4 = Tetromino.T
+      board.process_move(p4, 1)
+      p4 = Tetromino.T
+      board.process_move(p4, 6)
+      p4 = Tetromino.J
+      board.process_move(p4, 2)
+      p4 = Tetromino.L
+      board.process_move(p4, 6)
+      p4 = Tetromino.T
+      board.process_move(p4, 0)
+      p4 = Tetromino.T
+      board.process_move(p4, 7)
+      p4 = Tetromino.Q
+      board.process_move(p4, 4)
+      board
+
+    end
+    it "should have a max_height of 1" do
+      expect(subject.max_height).to eq(1)
+    end
+
+  end
+
+  context "L0,J3,L5,J8,T1,T6" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.L
+      board.process_move(p1, 0)
+      p2 = Tetromino.J
+      board.process_move(p2, 3)
+      p3 = Tetromino.L
+      board.process_move(p3, 5)
+      p4 = Tetromino.J
+      board.process_move(p4, 8)
+      p4 = Tetromino.T
+      board.process_move(p4, 1)
+      p4 = Tetromino.T
+      board.process_move(p4, 6)
+      board
+    end
+    it "should have max height of 1" do
+      expect(subject.max_height).to eq(1)
+    end
+  end
+
+  context "T0,T3,I6,I6" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.T
+      board.process_move(p1, 0)
+      p2 = Tetromino.T
+      board.process_move(p2, 3)
+      p2 = Tetromino.I
+      board.process_move(p2, 6)
+      p2 = Tetromino.I
+      board.process_move(p2, 6)
+      board
+    end
+    it "should have max height of 1" do
+      expect(subject.max_height).to eq(1)
+    end
+  end
+
+  context "I0,I4,Q8,I0,I4" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.I
+      board.process_move(p1, 0)
+      p2 = Tetromino.I
+      board.process_move(p2, 4)
+      p2 = Tetromino.Q
+      board.process_move(p2, 8)
+      p2 = Tetromino.I
+      board.process_move(p2, 0)
+      p2 = Tetromino.I
+      board.process_move(p2, 4)
+      board
+    end
+    it "should have max height of 0" do
+      expect(subject.max_height).to eq(0)
+    end
+  end
+
+  context "Q0,Q2,Q4,Q6,Q8,Q1,Q1" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.Q
+      board.process_move(p1, 0)
+      p2 = Tetromino.Q
+      board.process_move(p2, 2)
+      p2 = Tetromino.Q
+      board.process_move(p2, 4)
+      p2 = Tetromino.Q
+      board.process_move(p2, 6)
+      p2 = Tetromino.Q
+      board.process_move(p2, 8)
+      p2 = Tetromino.Q
+      board.process_move(p2, 1)
+      p2 = Tetromino.Q
+      board.process_move(p2, 1)
+      board
+    end
+    it "should have max height of 2" do
+      expect(subject.max_height).to eq(4)
+    end
+  end
+
+
 
 
 end

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df12e86b-d7b6-40bf-9ed8-2e1c37193a3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rtetris/board.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/board.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/rtetris/board_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rtetris/board_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,24 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultRubyCreateTestTemplate": "RSpec",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultRubyCreateTestTemplate&quot;: &quot;RSpec&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="RSpec.Board S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4 should return 9">
-    <configuration name="Board L0, J3, L5, J8, T1, T6, S2, Z5, T0, T7 the max height is 0" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="RSpec.Board Q0,Q2,Q4,Q6,Q8,Q1,Q1 should have max height of 2">
+    <configuration name="Board I0,I4,Q8,I0,I4 should have max height of 1" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rtetris" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -73,7 +74,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board L0, J3, L5, J8, T1, T6, S2, Z5, T0, T7 the max height is 0" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board I0,I4,Q8,I0,I4 should have max height of 1" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -84,7 +85,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Board Q0, I2, I6, I0, I6, I6, Q2, Q4 the max height is 3" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="Board Q0,Q2,Q4,Q6,Q8,Q1,Q1 should have max height of 2" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rtetris" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -107,7 +108,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board Q0, I2, I6, I0, I6, I6, Q2, Q4 the max height is 3" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board Q0,Q2,Q4,Q6,Q8,Q1,Q1 should have max height of 2" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -118,7 +119,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Board Q0,I2,I6,I0,I6,I6,Q2,Q4 the max height is 3 " type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="Board T0,T3 should have max height of 1" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rtetris" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -141,7 +142,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board Q0,I2,I6,I0,I6,I6,Q2,Q4 the max height is 3 " />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board T0,T3 should have max height of 1" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -152,7 +153,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Board S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4 should return 9" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="Board T0,T3,I6,I6 should have max height of 1" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rtetris" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -175,7 +176,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4 should return 9" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board T0,T3,I6,I6 should have max height of 1" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -186,7 +187,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Board T1, Z3 the maxheight should be 4" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="Board should have max height of 1" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rtetris" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -209,7 +210,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board T1, Z3 the maxheight should be 4" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Board should have max height of 1" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -222,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Board S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4 should return 9" />
-        <item itemvalue="RSpec.Board L0, J3, L5, J8, T1, T6, S2, Z5, T0, T7 the max height is 0" />
-        <item itemvalue="RSpec.Board Q0, I2, I6, I0, I6, I6, Q2, Q4 the max height is 3" />
-        <item itemvalue="RSpec.Board Q0,I2,I6,I0,I6,I6,Q2,Q4 the max height is 3 " />
-        <item itemvalue="RSpec.Board T1, Z3 the maxheight should be 4" />
+        <item itemvalue="RSpec.Board Q0,Q2,Q4,Q6,Q8,Q1,Q1 should have max height of 2" />
+        <item itemvalue="RSpec.Board I0,I4,Q8,I0,I4 should have max height of 1" />
+        <item itemvalue="RSpec.Board T0,T3,I6,I6 should have max height of 1" />
+        <item itemvalue="RSpec.Board T0,T3 should have max height of 1" />
+        <item itemvalue="RSpec.Board should have max height of 1" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +240,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678064472161</updated>
-      <workItem from="1678064473358" duration="60492000" />
+      <workItem from="1678064473358" duration="61889000" />
+      <workItem from="1678298918744" duration="3181000" />
     </task>
     <servers />
   </component>
@@ -275,7 +277,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/rtetris/board.rb</url>
-          <line>154</line>
+          <line>153</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
@@ -287,10 +289,15 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rtetris@Tetromino_when_the_body_data_is_T_has_a_width_of_3.rcov" NAME="Tetromino when the body data is T has a width of 3 Coverage Results" MODIFIED="1678113892223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_After_adding_an_L.rcov" NAME="Board After adding an L Coverage Results" MODIFIED="1678221365017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_S0_S2_S4_S6_should_have_a_max_height_of_8.rcov" NAME="Board S0,S2,S4,S6 should have a max_height of 8 Coverage Results" MODIFIED="1678297789048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Tetromino_when_the_body_data_is_T_has_a_width_of_3__1_.rcov" NAME="Tetromino when the body data is T has a width of 3 (1) Coverage Results" MODIFIED="1678113733725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_should_have_max_height_of_1.rcov" NAME="Board should have max height of 1 Coverage Results" MODIFIED="1678313160264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Tetromino.rcov" NAME="Tetromino Coverage Results" MODIFIED="1678113590838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_After_adding_a_Z_has_a_correct_heights_array.rcov" NAME="Board After adding a Z has a correct heights array Coverage Results" MODIFIED="1678213903069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_I0_I4_Q8_I0_I4_should_have_max_height_of_1.rcov" NAME="Board I0,I4,Q8,I0,I4 should have max height of 1 Coverage Results" MODIFIED="1678313521071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_After_adding_an_L_has_a_correct_heights_array.rcov" NAME="Board After adding an L has a correct heights array Coverage Results" MODIFIED="1678221278011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_Q0_Q2_Q4_Q6_Q8_Q1_Q1_should_have_max_height_of_2.rcov" NAME="Board Q0,Q2,Q4,Q6,Q8,Q1,Q1 should have max height of 2 Coverage Results" MODIFIED="1678314017690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_L0_J3_L5_J8_T1_T6_should_have_max_height_of_1.rcov" NAME="Board L0,J3,L5,J8,T1,T6 should have max height of 1 Coverage Results" MODIFIED="1678312991071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_After_adding_a_I_has_the_correct_widths_array.rcov" NAME="Board After adding a I has the correct widths array Coverage Results" MODIFIED="1678215196437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_After_adding_a_Q_and_filling_the_row_with_I_returns_row_filled_constant.rcov" NAME="Board After adding a Q and filling the row with I returns row filled constant Coverage Results" MODIFIED="1678230801169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_S0_S2_S4_S5_Q8_Q8_Q8_Q8_T1_Q1_I0_Q4_should_return_9.rcov" NAME="Board S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4 should return 9 Coverage Results" MODIFIED="1678296227643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
@@ -299,7 +306,10 @@
     <SUITE FILE_PATH="coverage/rtetris@Board_T1__Z3__I4_the_maxheight_should_be_4.rcov" NAME="Board T1, Z3, I4 the maxheight should be 4 Coverage Results" MODIFIED="1678235946718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_Q0_I2_I6_I0_I6_I6_Q2_Q4_the_max_height_is_3_.rcov" NAME="Board Q0,I2,I6,I0,I6,I6,Q2,Q4 the max height is 3  Coverage Results" MODIFIED="1678288549685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_T1__Z3_the_maxheight_should_be_4.rcov" NAME="Board T1, Z3 the maxheight should be 4 Coverage Results" MODIFIED="1678236764112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_T0_T3_should_have_max_height_of_1.rcov" NAME="Board T0,T3 should have max height of 1 Coverage Results" MODIFIED="1678313206529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_Q0__I2__I6__I0__I6__I6__Q2__Q4_the_max_height_is_3.rcov" NAME="Board Q0, I2, I6, I0, I6, I6, Q2, Q4 the max height is 3 Coverage Results" MODIFIED="1678290233662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_L0_J3_L5_J8_T1_T6_J2_L6_T0_T7_Q4_should_have_a_max_height_of_1.rcov" NAME="Board L0,J3,L5,J8,T1,T6,J2,L6,T0,T7,Q4 should have a max_height of 1 Coverage Results" MODIFIED="1678312684471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
     <SUITE FILE_PATH="coverage/rtetris@Board_T1__Z3__I4.rcov" NAME="Board T1, Z3, I4 Coverage Results" MODIFIED="1678235339146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
+    <SUITE FILE_PATH="coverage/rtetris@Board_T0_T3_I6_I6_should_have_max_height_of_1.rcov" NAME="Board T0,T3,I6,I6 should have max height of 1 Coverage Results" MODIFIED="1678313330025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rtetris" />
   </component>
 </project>

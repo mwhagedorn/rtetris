@@ -11,7 +11,7 @@ class Board
   PLACE_OK = 0
   PLACE_BAD = 1
   PLACE_ROW_FILLED = 2
-  DEBUG = true
+  DEBUG = false
   ##
   # Creates a grid with lower left at 0,0.  X increases to the right and Y increasing upwards
   # Filled spots are represented by a 1, Empty by a 0
@@ -56,7 +56,7 @@ class Board
     ret_val = PLACE_OK
 
     piece.body_data.each_with_index do |row, index_r|
-      row.each_with_index do |column,index_c|
+      row.each_with_index do |_column,index_c|
         if @data[index_r + y][index_c + x] == 1 && row[index_r][index_c] == 1
           ret_val = PLACE_BAD
           break
@@ -72,7 +72,7 @@ class Board
       end
     end
     sanity_check
-    return ret_val
+    ret_val
   end
   ##
   #  computes the y value where the origin (LL) of a piece will come to rest if dropped
@@ -106,10 +106,9 @@ class Board
   ##
   # For each row update how many filled squares in that row
   def update_widths(start, endval)
-    new_width = 0
     (start...endval).each do |row|
       the_row = @data[row]
-      new_width = the_row.sum()
+      new_width = the_row.sum
       widths[row] = new_width
     end
   end
@@ -142,12 +141,12 @@ class Board
     rows_cleared = 0
     cleared = false
     (0...max_height).each do |row|
-      if cleared == true
+      if cleared
         # this means the previous iteration cleared rows, dropping the grid
         row-=1
       end
       cleared = true
-      if @data[row].sum() < width
+      if @data[row].sum < width
         cleared = false
         next
       end
@@ -167,7 +166,7 @@ class Board
     end
     update_heights(0, width)
     sanity_check
-    return rows_cleared
+    rows_cleared
 
   end
 
@@ -202,7 +201,7 @@ class Board
       end
       print("|\n")
     end
-    (0...width+2).each do |col|
+    (0...width+2).each do |_col|
       print("-")
     end
     " "
