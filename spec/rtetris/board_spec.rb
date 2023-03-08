@@ -352,5 +352,56 @@ RSpec.describe Board do
     end
   end
 
+  context "S0,S2,S4,S5,Q8,Q8,Q8,Q8,T1,Q1,I0,Q4" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.S
+      board.process_move(p1, 0)
+      p2 = Tetromino.S
+      board.process_move(p2, 2)
+      p3 = Tetromino.S
+      board.process_move(p3, 4)
+      p4 = Tetromino.S
+      board.process_move(p4, 5)
+      p5 = Tetromino.Q
+      board.process_move(p5, 8)
+      p6 = Tetromino.Q
+      board.process_move(p6, 8)
+      p7 = Tetromino.Q
+      board.process_move(p7,8)
+      p8 = Tetromino.T
+      board.process_move(p8,1)
+      p8 = Tetromino.Q
+      board.process_move(p8,1)
+      p8 = Tetromino.I
+      board.process_move(p8,0)
+      p8 = Tetromino.Q
+      board.process_move(p8,4)
+      board
+    end
+    it "should return 9" do
+      expect(subject.max_height).to eq(9)
+    end
+  end
+
+  context "S0,S2,S4,S6" do
+    subject do
+      board = Board.new(25, 10)
+      p1 = Tetromino.S
+      board.process_move(p1, 0)
+      p2 = Tetromino.S
+      board.process_move(p2, 2)
+      p3 = Tetromino.S
+      board.process_move(p3, 4)
+      p4 = Tetromino.S
+      board.process_move(p4, 6)
+      board
+    end
+
+    it "should have a max_height of 8" do
+      expect(subject.max_height).to eq(8)
+    end
+  end
+
 
 end
