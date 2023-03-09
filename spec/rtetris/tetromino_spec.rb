@@ -3,12 +3,12 @@
 require 'rspec'
 require 'rtetris/tetromino'
 
-RSpec.describe Tetromino do
+RSpec.describe Rtetris::Tetromino do
   context 'when the body data is Q' do
     subject do
       data = [[1,1], [1,1]]
       tag = 'Q'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 2' do
@@ -29,7 +29,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[0,1,1], [1,1,0]]
       tag = 'Z'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 3' do
@@ -50,7 +50,7 @@ RSpec.describe Tetromino do
       subject do
         data = [[1,1],[0,1],[0,1]]
         tag = 'L'
-        Tetromino.new(data, tag)
+        Rtetris::Tetromino.new(data, tag)
       end
 
       it 'has a width of 2' do
@@ -67,7 +67,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[1,1,0], [0,1,1]]
       tag = 'S'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 3' do
@@ -87,7 +87,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[0,1,0], [1,1,1]]
       tag = 'T'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 3' do
@@ -107,7 +107,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[1,1,1,1]]
       tag = 'I'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 4' do
@@ -128,7 +128,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[1,1],[1,0],[1,0]]
       tag = 'L'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 2' do
@@ -149,7 +149,7 @@ RSpec.describe Tetromino do
     subject do
       data = [[1,1],[0,1],[0,1]]
       tag = 'J'
-      Tetromino.new(data, tag)
+      Rtetris::Tetromino.new(data, tag)
     end
 
     it 'has a width of 2' do
