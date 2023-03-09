@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'rtetris'
+require_relative("../lib/rtetris/launcher")
 
 Rtetris::Launcher.execute

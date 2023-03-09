@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df12e86b-d7b6-40bf-9ed8-2e1c37193a3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/tetris" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rtetris/command_list_processor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rtetris/launcher.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rtetris/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rtetris/command_list_processor_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rtetris/parser_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rtetris/board.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/board.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rtetris/tetromino.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/tetromino.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rtetris/board_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rtetris/board_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rtetris/tetromino_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rtetris/tetromino_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tetris" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tetris" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rtetris/command_list_processor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/command_list_processor.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rtetris/launcher.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/launcher.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rtetris/parser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rtetris/parser.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rtetris/parser_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rtetris/parser_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +244,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678064472161</updated>
       <workItem from="1678064473358" duration="61889000" />
-      <workItem from="1678298918744" duration="12417000" />
+      <workItem from="1678298918744" duration="14710000" />
     </task>
     <servers />
   </component>

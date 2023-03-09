@@ -5,7 +5,7 @@ require 'rtetris/parser'
 
 RSpec.describe Rtetris::Parser do
   subject do
-    data = "Q0,T1,Z2,Z3\nI0,L0,J1\n"
+    data = ["Q0,T1,Z2,Z3\n","I0,L0,J1\n"]
     p = Rtetris::Parser.new(data)
   end
 

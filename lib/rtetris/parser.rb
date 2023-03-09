@@ -14,7 +14,7 @@ module Rtetris
     # if an entry is an empty array it means evaluate the list of commands
     def parse
       commands = []
-      @data.each_line do |line|
+      @data.each do |line|
         line.strip.split(",").each do |token|
           # each token is like Q0
           commands << [token.chr, token[-1]]

@@ -2,7 +2,10 @@
 
 ##
 # Takes in a list of commands which are arrays of [PieceName, Col], and evaluates the state of the board when it encounters
-# an empty array in the list, it also creates a new board at this time
+# an empty array in the list, it also creates a new board at this timer
+
+require_relative("./board")
+require_relative("./tetromino")
 
 module Rtetris
   class CommandListProcessor
