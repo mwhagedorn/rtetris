@@ -61,7 +61,7 @@ module Rtetris
 
     # The I shape
     # 1
-    # 15
+    # 1
     # 1
     # 1
     # @return Tetromino
